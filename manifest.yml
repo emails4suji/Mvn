@@ -5,4 +5,4 @@ applications:
     host: sample1
     domain: cfapps.io
     env: 
-     JAVA_OPTS: -Dspring.profiles.active=cloud2
+     JAVA_OPTS: -Dspring.profiles.active=cloud

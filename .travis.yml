@@ -1,2 +1,10 @@
 language: java
   mvn test
+ deploy:
+   edge: true
+   provider: cloudfoundry
+   username: emails4suji@gmail.com
+   password: "god@1234"
+   api: https://api.run.pivotal.io
+   organization: cloud_apps_suji.org
+   space: sample_progs
