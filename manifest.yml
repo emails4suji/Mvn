@@ -1,0 +1,8 @@
+---
+applications:
+  - name: sample_prog
+    memory: 1G
+    host: sample1
+    domain: cfapps.io
+    env: 
+     JAVA_OPTS: -Dspring.profiles.active=cloud2
