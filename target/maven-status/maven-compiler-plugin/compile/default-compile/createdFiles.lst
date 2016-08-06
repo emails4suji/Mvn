@@ -1,0 +1,8 @@
+com\example\PhoneBookController.class
+com\example\Application.class
+com\example\LocalDataSourceConfig.class
+com\example\ContactsRepository.class
+com\example\Contacts.class
+com\example\PhoneBookService.class
+META-INF\spring-configuration-metadata.json
+com\example\CloudDataSourceConfig.class
