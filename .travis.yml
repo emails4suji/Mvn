@@ -9,3 +9,5 @@ deploy:
   api: https://api.run.pivotal.io
   organization: cloud_apps_suji.org
   space: sample_progs
+install:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
