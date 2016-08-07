@@ -4,7 +4,7 @@ jdk:
 env: 
   JAVA_OPTS: -Dspring.profiles.active=cloud
 sudo: false
-  mvn clean install
+  mvn -DskipTests=true clean install
 services:
   - postgresql
 before_script:
