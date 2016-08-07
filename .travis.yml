@@ -4,7 +4,7 @@ jdk:
 env: 
   JAVA_OPTS: -Dspring.profiles.active=cloud
 sudo: false
-  mvn test
+  mvn install
 services:
   - postgresql
 before_script:
@@ -17,8 +17,3 @@ deploy:
   api: https://api.run.pivotal.io
   organization: cloud_apps_suji.org
   space: sample_progs
-before_install:
-  - chmod +x mvnw
-install:
-  - mvn -N io.takari:maven:wrapper
-  - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
