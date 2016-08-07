@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 env: 
   JAVA_OPTS: -Dspring.profiles.active=cloud
-sudo: required
+sudo: false
   mvn test
 services:
   - postgresql
